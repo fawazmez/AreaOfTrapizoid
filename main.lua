@@ -56,7 +56,7 @@ local function calculateButtonTouch( event )
     lengthOfHeight = lengthOfHeightTextField.text
     areaOfTrapzoid = (lengthOfBaseA + lengthOfBaseB) / 2 * lengthOfHeight
     -- print( area of trapizoid )
-    areaOfTrapzoidTextField.text = "The area is " .. areaOfTrapzoid.."cm^2"
+    areaOfTrapzoidTextField.text = "The area is " .. areaOfTrapzoid.." cm^2"
 
     return true
 end
